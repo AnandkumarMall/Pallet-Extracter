@@ -1,25 +1,70 @@
-# Pallet-Extracter
-<p>The Color Palette Extraction Tool is a graphical application built with Python's Tkinter library and Pillow Library. It allows users to select an image file, extract the top 10 dominant colors, and display these colors with their hex codes and usage proportions.</p>
- <h2 id="usage">Usage</h2>
-    <p>After launching the application:</p>
-    <ul>
-        <li>Click the "Open Image" button to select an image file.</li>
-        <li>The tool will extract the top 10 dominant colors from the selected image.</li>
-        <li>The colors, their hex codes, and their proportions will be displayed.</li>
-        <li>Click on a color to copy its hex code to the clipboard.</li>
-    </ul>
-<h2 id="features">Features</h2>
-    <ul>
-        <li>Extract and display the top 10 dominant colors from an image.</li>
-        <li>Show hex codes and proportions of the colors.</li>
-        <li>Copy hex codes to the clipboard by clicking on the color.</li>
-        <li>Supports multiple image formats (PNG, JPEG, GIF).</li>
-</ul>
+# 🎨 Pallet-Extracter
 
-<h2 id="technologies-used">Technologies Used</h2>
-    <ul>
-        <li>Python</li>
-        <li>Tkinter</li>
-        <li>colorgram.py</li>
-        <li>pyperclip</li>
-</ul>
+A user-friendly graphical application that extracts dominant colors from images and displays them with their hex codes and usage proportions.
+
+## 📋 Description
+
+The Color Palette Extraction Tool is built with Python's Tkinter library and uses advanced color analysis algorithms. It allows users to select an image file, extract the top 10 dominant colors, and display them in an organized interface with hex codes and their proportions in the image.
+
+Perfect for designers, developers, and anyone who needs to work with color palettes from existing images.
+
+## 🚀 Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/AnandkumarMall/Pallet-Extracter.git
+   cd Pallet-Extracter
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## 📖 Usage
+
+1. **Launch the application:**
+   ```bash
+   python main.py
+   ```
+
+2. **Extract colors:**
+   - Click the "Open Image" button to select an image file
+   - The tool will analyze and extract the top 10 dominant colors from your image
+   - Colors, their hex codes, and proportions will be displayed in a table
+
+3. **Copy color codes:**
+   - Click on any color in the display to automatically copy its hex code to your clipboard
+   - Paste the hex code wherever you need it (design tools, code editors, etc.)
+
+## ✨ Features
+
+- 🎯 **Extract Dominant Colors**: Automatically identify and extract the top 10 dominant colors from any image
+- 🎨 **Visual Display**: See each color with a visual preview
+- 📊 **Detailed Information**: View hex codes and color proportions at a glance
+- 📋 **One-Click Copy**: Copy hex codes to clipboard with a single click
+- 🖼️ **Multiple Formats**: Supports PNG, JPEG, and GIF image formats
+- 💾 **Easy to Use**: Simple and intuitive graphical interface
+
+## 🛠️ Technologies Used
+
+- **Python** - Programming language
+- **Tkinter** - GUI framework for the user interface
+- **colorgram.py** - Color extraction algorithm
+- **Pillow** - Image processing library
+- **pyperclip** - Clipboard management
+
+## 📦 Requirements
+
+See `requirements.txt` for all dependencies:
+- colorgram.py==1.2.0
+- Pillow>=3.3.1
+- pyperclip>=1.8.1
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to submit issues and enhancement requests.
+
+## 📝 License
+
+This project is open source. Please check the LICENSE file for details.

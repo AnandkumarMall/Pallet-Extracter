@@ -8,7 +8,6 @@
         <li>The colors, their hex codes, and their proportions will be displayed.</li>
         <li>Click on a color to copy its hex code to the clipboard.</li>
     </ul>
-
 <h2 id="features">Features</h2>
     <ul>
         <li>Extract and display the top 10 dominant colors from an image.</li>

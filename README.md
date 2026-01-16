@@ -61,10 +61,4 @@ See `requirements.txt` for all dependencies:
 - Pillow>=3.3.1
 - pyperclip>=1.8.1
 
-## 🤝 Contributing
 
-Contributions are welcome! Feel free to submit issues and enhancement requests.
-
-## 📝 License
-
-This project is open source. Please check the LICENSE file for details.
